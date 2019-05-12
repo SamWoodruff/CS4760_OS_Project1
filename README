@@ -1,0 +1,18 @@
+To compile project just type make. proj1 will be the name of the executable.
+Make clean will remove the executable.
+
+My program works by continuously retrieving the next number from the input file. These are then
+placed into an array and written backwards into the output file suceeding
+the pid within each child process. Child ids are written to a temp file and added at the end of the outputfile
+before the temp file is deleted.
+
+
+testfile.txt is one of the files I used to test my program
+
+One thing I noticed while testing my program was that some of the forked proceses
+finish before some of the earlier ones that are started, and so they can be out of order
+in the outputfile.
+
+Options:
+An input file needs to be specified with -i option or else an error will be given if input.dat doesn't already exist.If the outputfIle given by the user doesn't exist, then one will be created usin
+the outputfilename entered. If no outputfilename is entered then a file, output.dat will be created to store the pids and numbers.

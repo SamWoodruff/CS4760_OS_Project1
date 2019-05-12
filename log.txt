@@ -1,0 +1,35 @@
+commit c04d5adcf47c1ce41b227fe52491f10b75a27e0d
+Author: samuel woodruff <woodruff@hoare7.cs.umsl.edu>
+Date:   Mon Feb 4 19:23:57 2019 -0600
+
+    Refactored code. Added comments. Project finished.
+
+commit 9df88b65158b1416335f0b86a89fb4e08bbdb205
+Author: samuel woodruff <woodruff@hoare7.cs.umsl.edu>
+Date:   Thu Jan 31 10:11:49 2019 -0600
+
+    commit#4 1/31/19
+    TODO: Fix last line of pids on output file(gives pid of 0 sometimes)
+    Refactored code for neatness
+
+commit 32bf5fd6b321b3eb1d2cbfbc5dfbcc6eb7019047
+Author: samuel woodruff <woodruff@hoare7.cs.umsl.edu>
+Date:   Tue Jan 29 16:37:04 2019 -0600
+
+    commit#3 1/29/19
+    Impemented function to continuously return next value
+    from text file as an integer. All values and pid's are writte to output.dat by default.
+
+commit f30832febf210feebdb74016357d06ea37206c30
+Author: samuel woodruff <woodruff@hoare7.cs.umsl.edu>
+Date:   Mon Jan 28 17:50:36 2019 -0600
+
+    commit#2 1/28/19
+    Inputfile validation and setting up fork() loop
+
+commit fc78cad01cd2fd1ed5dc840b34f4f3e972a29907
+Author: samuel woodruff <woodruff@hoare7.cs.umsl.edu>
+Date:   Sun Jan 27 17:26:26 2019 -0600
+
+    commit#1 1/27/19
+    Implemented command line arguments with getopt
